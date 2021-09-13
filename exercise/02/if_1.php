@@ -9,8 +9,8 @@ $b = 2;
 
 if ($a > $b) {
     echo $a;
-}elseif($b > $a) {
+} elseif ($b > $a) {
     echo $b;
-}else{
+} else {
     echo '入力された値は等しいです';
 }

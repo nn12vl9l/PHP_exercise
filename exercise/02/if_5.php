@@ -1,6 +1,6 @@
 <?php
 
-$num =10;
+$num = 10;
 
 for ($i = 2; $i < $num; $i++) {
     if ($num % $i == 0) {
@@ -8,6 +8,6 @@ for ($i = 2; $i < $num; $i++) {
         break;
     } else {
         echo $num . ' は 素数です';
-    break;
+        break;
     }
 }

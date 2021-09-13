@@ -3,7 +3,7 @@
 // 以下にCarクラスを定義して、当プログラムを実行した時にエラーがでないようにして下さい。
 class Car
 {
-    public function __construct($name,$number,$color)
+    public function __construct($name, $number, $color)
     {
         $this->name = $name;
         $this->number = $number;
@@ -27,7 +27,7 @@ class Car
 
     public function infomation()
     {
-        return '車の車種:' . $this->name .'、車体番号:' . $this->number .'、カラー:' . $this->color . 'です';
+        return '車の車種:' . $this->name . '、車体番号:' . $this->number . '、カラー:' . $this->color . 'です';
     }
 
     public function setName($name)
@@ -42,7 +42,6 @@ class Car
     {
         $this->color = $color;
     }
-
 }
 
 // 以下を実行した時にエラーがでないようにして下さい。

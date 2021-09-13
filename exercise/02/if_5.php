@@ -12,7 +12,7 @@ for ($i = 2; $i < $num; $i++) {
     } 
 }
 
-if($flg) {
+if ($flg) {
     echo $num . ' は 素数です';
 } else {
     echo $num . ' は 素数ではありません';
